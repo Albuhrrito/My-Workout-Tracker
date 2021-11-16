@@ -22,7 +22,7 @@ public class bruh implements ActionListener {
         button.addActionListener(this);
 
         label = new JLabel("Number clicks: 0");
-
+        //this works
         panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(0, 1));
